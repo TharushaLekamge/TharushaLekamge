@@ -1,0 +1,185 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Professional CV - Tharusha Lekamge
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{resume}
+\usepackage{ebgaramond}
+\usepackage[hidelinks]{hyperref}
+% override parskip behaviour
+\setlength{\parskip}{3pt}
+
+% Compacting
+\setlength{\parskip}{3pt}
+\renewcommand{\baselinestretch}{0.96}
+\usepackage{enumitem}
+\setlist{nosep, left=0pt}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\printname}{\bigskip\break}{\vspace{4pt}}{}{}
+\makeatother
+
+
+\name{Tharusha Lekamge}
+
+\address{\href{tel:+94705317275}{+94 70 531 7275} \\ \href{mailto:tharushalekamge@gmail.com}{tharushalekamge@gmail.com} \\ \href{https://www.linkedin.com/in/tharusha-lekamge/}{linkedin.com/in/tharusha-lekamge/}}
+\address{Colombo, Sri Lanka}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+Software Engineer with a strong foundation in Computer Science and Engineering and practical experience in backend and full-stack development using Django, FastAPI, Node.js, and cloud technologies. Passionate about building scalable, maintainable systems and applying machine learning in real-world applications. Highly adaptable and always eager to learn new technologies, embracing challenges that drive professional and technical growth.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{IFS R\&D International (for Poka Inc.)}{Jun 2024 – Jul 2025}{Software Engineer}{Colombo, Sri Lanka}
+\item Contributed to the development of \textbf{Poka}, a SaaS platform used by global manufacturing enterprises to digitize factory operations, standardize work instructions, and improve communication across production lines.
+\item Worked on both the monolithic core and microservice-based backend systems, developing scalable features using Django, FastAPI, and PostgreSQL.
+\item Enhanced the existing Single Sign On system by introducing a self-serve mechanism, eliminating manual configuration.
+\item Automated the user onboarding email flow by implementing secure magic-link delivery using FastAPI, AWS Lambda, SQS, and SES, reducing manual effort during user imports.
+\item Collaborated closely with cross-functional teams to align backend development with infrastructure goals, leveraging AI-assisted tools to enhance productivity and code quality.
+\item \textbf{Skills Gained:} Django, FastAPI, AWS, PostgreSQL, REST API Design, SaaS Development, AI-assisted Development, Team Collaboration
+\end{rSubsection}
+
+\begin{rSubsection}{IGT1 Lanka (for Poka Inc.)}{Jul 2025 – Present}{Software Engineer}{Colombo, Sri Lanka}
+\item Continued backend development for Poka, focusing on improving scalability, maintainability, and system performance.
+\item Improved the existing Looker-based analytics integration, automating dashboard management.
+\item Designed and developed a lightweight license management service using FastAPI and DynamoDB, streamlining license allocation and reducing manual overhead.
+\item \textbf{Skills Gained:} AWS, DynamoDB, PostgreSQL, Looker SDK, Backend Optimization
+\end{rSubsection}
+
+\begin{rSubsection}{Eyepax IT Consulting (Pvt) Ltd}{Jan 2023 – Jun 2023}{Software Engineer Intern}{Colombo, Sri Lanka}
+\item Contributed to the development of an \textbf{industrial workload and allocation management system} for universities in the UK.
+\item Designed and developed several web-app modules using ReactJS and TypeScript.
+\item Implemented backend improvements and minor feature enhancements using PHP and Node.js.
+\item Completed a training project on a \textbf{Salon Booking Application}:
+    \begin{itemize}
+        \item Designed the UI/UX in Figma and developed the web-app with ReactJS.
+        \item Built a Node.js backend integrated with Stripe for secure payments.
+    \end{itemize}
+\item \textbf{Skills Gained:} ReactJS, TypeScript, Node.js, Git, Agile workflows
+\end{rSubsection}
+
+\begin{rSubsection}{University of Moratuwa}{Jul 2023 – Jun 2024}{Teaching Assistant}{Moratuwa, Sri Lanka}
+\item Assisted in delivering undergraduate modules \textbf{Program Construction} and \textbf{Visual Programming}.
+\item \textbf{Skills Gained:} Teaching, Communication, Python, C, Programming Concepts, Mentorship
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+\textbf{University of Moratuwa} \hfill \textit{Dec 2019 – Jun 2024} \\
+\textit{B.Sc. Eng. (Hons.) in Computer Science and Engineering} \\
+Dean’s List: Semesters 1,2,3,6,8 \\
+GPA: 3.74 / 4.00
+
+\medskip
+\textbf{Ananda College, Colombo} \hfill \textit{Aug 2018} \\
+G.C.E. Advanced Level (Island Rank: 210) \\
+\textit{Mathematics – A, Physics – A, Chemistry – A, General English – A}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\newpage
+\begin{rSection}{Projects}
+
+\textbf{MonoVision (Final Year Project)} \hfill \textit{Jul 2023 – Present} \\
+Developing a monocular 3D reconstruction system for environments with challenging lighting conditions. The system uses a GAN-based image enhancement model to convert low-light images to normal lighting conditions, followed by a depth estimation and 3D reconstruction pipeline to generate accurate scene geometry from single images. (Model training and inference done in Google Cloud Platform).
+ \href{https://www.ijrcom.org/index.php/ijrc/article/view/134}{(Research paper published)} \\
+\textbf{Skills Gained:} Computer Vision, 3D Reconstruction, Depth Estimation, GANs, Pytorch, Python, Research Implementation, GCP
+
+\medskip
+\textbf{FPGA NeuralNet} \hfill \textit{Nov 2023 – Dec 2023} \\
+Implemented a dense neural network on a Basys3 FPGA board to recognize handwritten digits (MNIST dataset). Used Verilog and Python to design a state-machine-based inference system. \\
+\textbf{Skills Gained:} Verilog, Digital Logic Design, Python, FPGA Programming, Hardware Acceleration
+
+\textbf{Bus Tracker} \hfill \textit{2025 – Present} \\
+Developed a modular backend for a crowdsourced bus tracking system using Django REST Framework. Implemented containerized development with Docker and integrated PostgreSQL, MongoDB, and Redis for data persistence, caching, and scalability. Configured CI with GitHub Actions for automated testing and validation. \\
+\textbf{Skills Gained:} AI Assisted Coding, Django, DRF, Docker, PostgreSQL, MongoDB, Redis, GitHub Actions, CI/CD, API Design, System Architecture
+
+\medskip
+\textbf{Wedasa – Radiographic Image Viewer} \hfill \textit{Sep 2022 – Dec 2022} \\
+Individual project integrating a PACS system for hospitals. Built a Python-based tool for DICOM image viewing and anomaly detection. \\
+\textbf{Skills Gained:} Python, Medical Imaging, DICOM Handling, Image Processing, ML Model Integration
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Certifications}
+\begin{tabular}{@{} l l}
+Machine Learning Specialization & \href{https://coursera.org/share/ef8d6d135141afe80d34fe5a8c1c5c41}{(Coursera)} \\
+Introduction to TensorFlow for AI, ML, and DL & \href{https://coursera.org/share/d764e1a751d90f2a7be652fc879fdda3}{(Coursera)} \\
+Build Basic Generative Adversarial Networks (GANs) & \href{https://coursera.org/share/617b8284cec684599b82d9f5922cb778}{(Coursera)} \\
+\end{tabular}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+Programming Languages & Python, C++, TypeScript \\[4pt]
+Frameworks \& Libraries & Django, FastAPI, Node.js, React, PyTorch \\[4pt]
+Databases and datastores & PostgreSQL, MySQL, MongoDB, DynamoDB \\[4pt]
+Cloud \& DevOps & AWS (Cognito, Lambda, SQS, SES), Docker, GitHub Actions \\[4pt]
+Tools \& Platforms & Git, Figma, Looker SDK, Firebase, GCP, Agile, AI-assisted Development \\[4pt]
+Core Strengths & Backend Architecture, Problem Solving, Team Collaboration
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	LEADERSHIP & ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Leadership and Activities}
+\item \textbf{Department Representative} – Department of Computer Science and Engineering, University of Moratuwa (2023/24)
+\item \textbf{Vice Captain} – University of Moratuwa Taekwondo Team (2022)
+\item \textbf{Member} – Rotaract Club of University of Moratuwa
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Extra Curricular Achievements}
+\item Gold Medal – First South Asian International Open Taekwondo Championship (2023)
+\item SLUSA Colors Awards (2022, 2023, 2024)
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{References}
+Sulakshana Amaragunasekara \\
+Director of Engineering IGT1 | Poka Inc \\
+\href{mailto:sulakshana.amaragunasekara@gmail.com}{sulakshana.amaragunasekara@gmail.com} - \href{tel:+94777750517}{+94 77 775 0517}
+
+\medskip
+Dr. Kutila Gunasekara \\
+Senior Lecturer, University of Moratuwa \\
+\href{mailto:kutila@cse.mrt.ac.lk}{kutila@cse.mrt.ac.lk} - \href{tel:+94771423877}{+94 77 142 3877}
+\end{rSection}
+
+\end{document}
