@@ -45,10 +45,6 @@ Currently, I work on backend systems for Poka, a SaaS platform for manufacturing
 
 - **Wedasa** — Radiographic image viewer integrating PACS concepts for hospitals, with DICOM image viewing, image processing, and anomaly detection support.
 
-## GitHub Contribution Graph
-
-[![Tharusha's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=TharushaLekamge&theme=github-compact&hide_border=true)](https://github.com/TharushaLekamge)
-
 ## Education & Research
 
 - **B.Sc. Eng. (Hons.) in Computer Science and Engineering**, University of Moratuwa
