@@ -16,7 +16,7 @@
 
 I'm a Software Engineer based in Colombo, Sri Lanka, focused on backend and full-stack development. I enjoy building scalable SaaS features, automation-heavy backend systems, and practical AI/ML applications that solve real-world problems.
 
-Currently, I work on backend systems for Poka, a SaaS platform for manufacturing enterprises, where I build and improve services using Django, FastAPI, PostgreSQL, AWS, DynamoDB, and analytics integrations.
+Most recently, I worked on backend systems for Poka, a SaaS platform for manufacturing enterprises, where I built and improved services using Django, FastAPI, PostgreSQL, AWS, DynamoDB, and analytics integrations.
 
 ## Currently Learning
 
