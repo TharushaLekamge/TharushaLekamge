@@ -18,6 +18,10 @@ I'm a Software Engineer based in Colombo, Sri Lanka, focused on backend and full
 
 Currently, I work on backend systems for Poka, a SaaS platform for manufacturing enterprises, where I build and improve services using Django, FastAPI, PostgreSQL, AWS, DynamoDB, and analytics integrations.
 
+## Currently Learning
+
+- **Data Engineering** through the [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) by DataTalksClub and dimensional modeling concepts from [Kimball Group](https://www.kimballgroup.com/).
+
 ## What I work with
 
 - **Backend:** Django, FastAPI, Node.js, REST API design, SaaS development
