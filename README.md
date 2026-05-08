@@ -1,18 +1,12 @@
 # Hi, I'm Tharusha Lekamge 👋
 
-<p>
-  <a href="https://www.linkedin.com/in/tharusha-lekamge/" aria-label="LinkedIn">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/linkedin.svg" alt="LinkedIn" width="28" height="28" />
-  </a>
-  &nbsp;
-  <a href="mailto:tharushalekamge@gmail.com" aria-label="Email">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/gmail.svg" alt="Email" width="28" height="28" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/TharushaLekamge" aria-label="GitHub">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/github.svg" alt="GitHub" width="28" height="28" />
-  </a>
-</p>
+<h3>
+  <a href="https://www.linkedin.com/in/tharusha-lekamge/">LinkedIn</a>
+  &nbsp;|&nbsp;
+  <a href="mailto:tharushalekamge@gmail.com">Email</a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/TharushaLekamge">GitHub</a>
+</h3>
 
 I'm a Software Engineer based in Colombo, Sri Lanka, focused on backend and full-stack development. I enjoy building scalable SaaS features, automation-heavy backend systems, and practical AI/ML applications that solve real-world problems.
 
